@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #000000; /* Pure black navbar */
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #f7a13e; /* Light orange */
+    text-transform: uppercase;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffffff; /* Hover effect to white */
+}
+
+/* Section Titles */
+h1, h2 {
+    color: #f7a13e; /* Light orange for headings */
+}
+
+/* Links */
+a {
+    color: #f7a13e;
+    text-decoration: none;
+}
+
+
+
+/* About Section */
+section.bg-light {
+    background-color: #1e1e1e; /* Dark gray background for sections */
+}
+
+.lead.text-muted {
+    color: #d1d1d1; /* Muted white for secondary text */
+}
+
+/* Images */
+img {
+    border: 4px solid #f7a13e; /* Light orange border for images */
+    border-radius: 8px;
+}
+
+/* Footer */
+footer.bg-dark {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #f7a13e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons (if any added later) */
+.btn-primary {
+    background-color: #f7a13e;
+    border-color: #f7a13e;
+    color: #121212;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #121212;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand, .nav-link {
+        font-size: 0.9rem;
+    }
+}

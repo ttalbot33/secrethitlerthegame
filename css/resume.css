@@ -1,0 +1,80 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #000000; /* Pure black navbar */
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #f7a13e; /* Light orange */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffffff; /* Hover effect to white */
+}
+
+.navbar-dark .nav-link.active {
+    border-bottom: 2px solid #f7a13e; /* Highlight active link */
+}
+
+/* Section Titles */
+h2.fw-bolder {
+    color: #f7a13e; /* Light orange section titles */
+    border-bottom: 2px solid #f7a13e;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul.list-unstyled {
+    margin: 0;
+    padding: 0;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #1e1e1e; /* Darker background for list items */
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+ul.list-unstyled li h5.fw-bold {
+    color: #f7a13e; /* Light orange for headings in lists */
+    margin-bottom: 5px;
+}
+
+/* Section Backgrounds */
+section {
+    padding: 40px 0;
+}
+
+section.bg-light {
+    background-color: #1e1e1e; /* Slightly lighter black for alternating sections */
+}
+
+/* Footer */
+footer.bg-dark {
+    background-color: #000000; /* Pure black */
+}
+
+footer .text-white {
+    color: #ffffff;
+}
+
+footer .link-light {
+    color: #f7a13e; /* Light orange links */
+    text-decoration: none;
+}
+
+footer .link-light:hover {
+    color: #ffffff; /* Hover effect to white */
+}

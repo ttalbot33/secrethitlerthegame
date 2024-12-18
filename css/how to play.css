@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333333; /* Dark gray text */
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #222831; /* Dark slate gray */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-brand {
+    color: #00adb5; /* Aqua */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-dark .nav-link {
+    color: #eeeeee; /* Light gray */
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link.active {
+    color: #00adb5; /* Aqua hover and active */
+}
+
+/* Page Header */
+h1, h2 {
+    color: #393e46; /* Charcoal */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    color: #6c757d; /* Muted gray */
+}
+
+/* Sections */
+.bg-light {
+    background-color: #ffffff !important; /* White background */
+    border: 1px solid #ddd;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 1.5rem;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #00adb5; /* Aqua bullet */
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+button.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #eeeeee;
+}
+
+/* Footer */
+footer {
+    background-color: #222831; /* Dark slate gray */
+    color: #eeeeee; /* Light gray */
+    text-align: center;
+}
+
+footer a {
+    color: #00adb5; /* Aqua links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #eeeeee; /* Light gray on hover */
+}
